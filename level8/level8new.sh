@@ -9,11 +9,11 @@ mkdir dir104 dir105
 
 while [ "$n" -lt "50" ]
    do mkdir "dir $n"
-       touch flags.txt
-      cd    "dir $n"
-      touch flag.txt
-       touch password.txt
-       mkdir osdc_facebook.txt
+       touch flags
+       cd    "dir $n"
+       touch maze
+       touch 
+       mkdir think
     
        cd ..     
          n=$(( n+1 ))
