@@ -9,7 +9,7 @@ mkdir dir104 dir105
 
 while [ "$n" -lt "50" ]
    do mkdir "dir $n"
-       touch flags.txt
+       touch flag
        cd    "dir $n"
        touch flag
        touch password
