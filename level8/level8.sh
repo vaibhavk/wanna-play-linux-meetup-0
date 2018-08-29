@@ -11,16 +11,16 @@ while [ "$n" -lt "50" ]
    do mkdir "dir $n"
        touch flags.txt
        cd    "dir $n"
-       touch flag.txt
-       touch password.txt
-       mkdir osdc_facebook.txt
+       touch flag
+       touch password
+       mkdir maze
        cd ..     
         n=$(( n+1 ))
   done
 mkdir "dir 50"
 cd "dir 50" 
-touch flag.txt
-echo "556a27092b57b87d26716da9f35cbb37" >> flag.txt
+touch flag
+echo "556a27092b57b87d26716da9f35cbb37" >> flag
 cd ..
 mkdir "dir 52"
 mkdir "dir 53"
@@ -38,10 +38,10 @@ m=$(( m+59))
 while [ "$m" -lt "101" ]
     do mkdir "dir $m"
         cd   "dir $m"
-        touch flag.txt
-        mkdir nightwarriorxxx
-        touch flag.txt
-        touch nightwarrior-xxx.txt
+        touch flag
+        mkdir maze
+        touch flag
+        touch password
         cd ..
         m=$((m+1))
     done
