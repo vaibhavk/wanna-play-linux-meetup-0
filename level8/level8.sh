@@ -20,7 +20,7 @@ while [ "$n" -lt "50" ]
 mkdir "dir 50"
 cd "dir 50" 
 touch flag
-echo "556a27092b57b87d26716da9f35cbb37" >> flag
+echo "b295e510a8ebbfab2df040bb67782c1d" >> flag
 cd ..
 mkdir "dir 52"
 mkdir "dir 53"
